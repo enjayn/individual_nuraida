@@ -1,0 +1,273 @@
+table.table1 { 
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgba(66,66,66,0.7);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+table.table1 tr  {
+	float: left;
+  }
+
+table.table1 tr a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+table.table1 tr a:hover:not(.active) {
+	background-color: rgba(240,240,240,0.3);
+
+}
+table.table1.active {
+	background-color: rgba(255,255,255,0.5);
+	color:black;
+	border: solid;
+	border:10px;
+
+}
+table.table1 tr a:hover:not(.active) {
+	background-color: rgba(240,240,240,0.3);
+	transition: ease .2s;
+}
+.active {
+	background-color: rgba(255,255,255,0.5);
+	color:black;
+	border: solid;
+	border:10px;
+}
+table.table2  { 
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-right: auto;
+	margin-right:auto;
+	font-size:25px;
+	font-family:Arial;
+	font-weight:bold;
+	color: rgb(255,215,0);
+	text-shadow: 2px 2px 2px black;
+	font-size:35px;
+}
+
+table.table2 tr a{
+	float: left;
+  }
+
+table.table2 tr a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+table.table3 { 
+	
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid;
+	font-family:Verdana (sans-serif);
+	font-size:30px;
+	font-weight:bold;
+	color:black;
+	text-shadow: 2px 2px gray;
+	border-style: hidden;
+	
+	
+}
+
+table.table3 tr td {
+	border:2px rgb(255,215,0) solid;
+
+  }
+
+table.table3 tr a {
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+table.table4 { 
+	
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid;
+	font-family:Verdana (sans-serif);
+	font-size:30px;
+	font-weight:bold;
+	color: black;
+	text-shadow:2px 2px 2px rgb(255,215,0);
+	border-style: hidden;
+	text-align:center;
+	
+}
+
+table.table4 tr td {
+	float:center;
+
+  }
+
+table.table4 tr a {
+	display: block;
+	color: white;
+	text-align: center;
+	
+
+	}
+
+.header {
+	background-color: transparent;
+	padding: 20px;
+	text-align: center;
+	font-weight:bold;
+	width: 74%;
+}
+.column {
+	float: left;
+}
+
+
+.column.left {
+	width: 65%;
+
+	border-width:thin;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+  
+}
+
+
+.column.right {
+	width: 25%;
+	background-color:rgba(255,255,255,0.5);
+	border: solid;
+	border-width:thin;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:left;	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+	line-height:
+  }
+}
+	
+a.one:link {
+  color: rgb(218,165,32);
+  background-color: transparent;
+  text-decoration: none;
+}
+a.one:visited {
+	color: gray;
+	background-color: transparent;
+	text-decoration: none;
+}
+a.one:hover {
+	color: rgb(239,253,95);
+	background-color: transparent;
+	text-decoration: underline;
+	font-size:110%;
+}
+a.one:active {
+	color: rgb(253,165,15);
+	background-color: transparent;
+	text-decoration: underline;
+}
+a.two:link	{ 
+	background-color: #b29700;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius:50px;
+}
+
+a.two:visited {
+	background-color: #b29700;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius:50px;
+}
+
+a.two:hover	{
+  background-color: rgb(255,215,0);
+}
+ a.two:active {
+	background-color: rgb(252,244,163);
+}
+
+a.three:link	{ 
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius:50px;
+	color:black;
+	font-size:45px;
+	text-shadow:none;
+	text-align:left;
+	font-family:Brush Script MT;
+	
+}
+
+a.three:visited {
+	background-color: #b29700;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius:50px;
+}
+
+a.three:hover	{
+	transform:scale(1.5);
+}
+ a.three:active {
+	color:gray;
+}
+a.four:link	{ 
+	font-size:80px;
+	text-decoration: none;
+	width:30px;
+	
+
+	
+}
+.image:hover	{
+	position:relative;
+	size:150%
+	height:auto;
+	display:block;
+	transform:scale(1.5);
+	transition:all .2s ease-in-out
+}
